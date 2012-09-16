@@ -1,4 +1,4 @@
 == Jozzua.com
 
-Just  a personal website created in an attempt to understant Ruby on Rails.
+Just  a personal website created in an attempt to understand Ruby on Rails.
 
