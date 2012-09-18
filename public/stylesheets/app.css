@@ -16,8 +16,21 @@ h1,h2 {
   font-family: 'Pacifico', Georgia, serif;
 }
 
+#martha_graham {
+  height: 156px;
+  width: 403px;
+  position: relative;
+      }
+
+      .frame{
+        position: absolute;
+        background-image: url("http://www.google.com/logos/2011/graham11-hp-sprite.png");
+        background-repeat: no-repeat;
+
+}
 
 /* -----------------------------------------
+ * 
    Shared Styles
 ----------------------------------------- */
 
