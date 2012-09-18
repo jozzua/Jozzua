@@ -8,9 +8,11 @@
 :: Page Name 2
 */
 
-body {
+body  {
   font-family: 'Arimo', Verdana, Helvetica, sans-serif;
+  background: url(http://subtlepatterns.com/patterns/ricepaper.png);
 }
+
 
 h1,h2 {
   font-family: 'Pacifico', Georgia, serif;
@@ -18,17 +20,21 @@ h1,h2 {
 
 #martha_graham {
   height: 156px;
-  width: 403px;
   position: relative;
-  background-image: url("graham11-hp-start.png")
+  background-image: url("graham11-hp-start.png");
       }
 
       .frame{
         position: absolute;
-        background-image: url("http://www.google.com/logos/2011/graham11-hp-sprite.png");
+        background-image: url("../graham11-hp-sprite.png");
         background-repeat: no-repeat;
 
 }
+
+p  {
+  font-family: 'Arimo', Verdana, Helvetica, sans-serif;
+}
+
 
 /* -----------------------------------------
  * 
