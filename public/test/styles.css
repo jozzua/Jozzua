@@ -1,0 +1,118 @@
+body {
+  font: 12px Helvetica, Arial;
+}
+
+a, a:active, a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+
+.gridBuyBox {
+  float: left;
+  display: inline;
+  margin: 2px;;
+}
+
+
+.widgetMid2 {
+  height: 280px;
+  padding: 5px;
+  width: 180px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius:  5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+ }
+
+ /*Burst image */
+
+ .clearanceBurst {
+ color: white;
+ height: 15px;
+ width: 155.5px;
+ background-color: #0C4DA2;
+ padding: 5px 10px 6px;
+ margin: 0;
+ text-align: center;
+ border-bottom: 1px solid #888;
+ border-right: 1px solid #E4E4E4;
+ border-left: 1px solid #E4E4E4;
+ border-radius: 3px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 1px -1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  position: relative;
+  padding: 5px 0;
+  left: -2px;
+  top: 17px;
+  width: 120px;
+ }
+
+
+
+ .clearanceRibbon {
+   width: 85px;
+   height: 88px;
+   overflow: hidden;
+   position: absolute;
+   top: -3px;
+   right: -3px;
+
+ }
+
+.prodImage {    
+    margin: auto;
+    text-align:center;
+    padding: 10px;
+ }
+ .prodDescription {
+
+}
+
+.productName {
+  color: #2A85E8;
+  font-weight:bold;
+  text-decoration:none;
+ }
+ .reviewNum {
+  color: #2A85E8;
+ }
+ .readMore {
+   vertical-align: 1px;
+   text-decoration:none;
+
+ }
+ .freeshipping {
+   padding-bottom: 5px;
+   font-weight:bold;
+   color: green;
+ }
+
+ .prodPrice {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   padding: 5px;
+ }
+
+ .aPrice {
+   font-size: 26px;;
+   font-weight: bold;
+ }
+
+ .specialPrice {
+   font-size: 20px;;
+   font-weight: bold;
+ }
+
+ .sPrice {
+  display: block;
+  text-decoration: line-through
+
+ }
