@@ -16,7 +16,7 @@ a, a:active, a:focus {
 
 
 .widgetMid2 {
-  height: 280px;
+  height: 270px;
   padding: 5px;
   width: 180px;
   position: relative;
@@ -29,29 +29,35 @@ a, a:active, a:focus {
  /*Burst image */
 
  .clearanceBurst {
- color: white;
- height: 15px;
- width: 155.5px;
- background-color: #0C4DA2;
- padding: 5px 10px 6px;
- margin: 0;
- text-align: center;
- border-bottom: 1px solid #888;
- border-right: 1px solid #E4E4E4;
- border-left: 1px solid #E4E4E4;
- border-radius: 3px;
-  text-align: center;
-  letter-spacing: 1px;
-  text-shadow: 1px -1px 3px rgba(0, 0, 0, 0.5);
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  position: relative;
-  padding: 5px 0;
-  left: -2px;
-  top: 17px;
-  width: 120px;
+
+color: white;
+height: 15px;
+width: 155.5px;
+background-color: #0C4DA2;
+padding: 5px 10px 6px;
+margin: 0;
+text-align: center;
+border-bottom: 1px solid #888;
+border-right: 1px solid #E4E4E4;
+border-left: 1px solid #E4E4E4;
+border-radius: 3px;
+text-align: center;
+letter-spacing: 1px;
+text-shadow: 1px -1px 3px rgba(0, 0, 0, 0.5); 
+  -moz-transform: rotate(45deg);  /* FF3.5/3.6 */
+  -o-transform: rotate(45deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(45deg);  /* Saf3.1+ */
+  transform: rotate(45deg);  /* Newer browsers (incl IE9) */
+ filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476); /* IE6,IE7 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)"; /* IE8 */
+position: relative;    
+padding: 5px 0;
+left: -2px;
+top: 17px;
+left: -2px;
+top: -20px\9;
+width: 120px;
+        
  }
 
 
