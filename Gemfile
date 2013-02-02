@@ -56,4 +56,7 @@ gem 'heroku'
 gem 'fog'
 
 # Postgres support (added for Heroku)
-gem 'pg'
+
+group :production do
+  gem 'pg'
+end
