@@ -11,7 +11,13 @@ body {
 
 .iphone {
   background: url(/i/iphone5.png) no-repeat center top;
-  padding-top: 123px;
-  padding-left: 110px;
-  padding-right: 110px;
+  width: 400px;
+  height: 600px;
 } 
+
+.inside-iphone {
+  position: relative;
+  left: 30px;
+  top: 125px;
+  width: 340px;
+}
