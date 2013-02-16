@@ -22,3 +22,7 @@ body {
   top: 125px;
   width: 340px;
 }
+
+.container .hero-unit {
+  background:none;
+}
