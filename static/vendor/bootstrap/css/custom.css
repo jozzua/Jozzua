@@ -1,0 +1,17 @@
+body {
+  background-color: #000;
+}
+
+.jozzua {
+  height: 400px;
+  background: url(/i/zzz.jpg) no-repeat center top;
+  color: white;
+  text-shadow: 1px 1px #000;
+}
+
+.iphone {
+  background: url(/i/iphone5.png) no-repeat center top;
+  padding-top: 123px;
+  padding-left: 110px;
+  padding-right: 110px;
+} 
