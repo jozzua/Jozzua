@@ -36,9 +36,9 @@ li.tumblr_photo_post {
 }
 
 .tumblr_post img {
-  width: 100px;
+  width: 80px;
   float: left;
-  padding:5px;
+  padding:3px;
 }
 
 .tumblr_caption {
