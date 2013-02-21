@@ -31,9 +31,6 @@ body {
 
 /* Tumbler stuff */
 
-.tumblr_posts { 
-
-}
 li.tumblr_photo_post {
   list-style: none;    
 }
@@ -49,27 +46,66 @@ li.tumblr_photo_post {
   display:none;
 
 }
-.tumblr_title { 
 
-}
-.tumblr_body img {  
-
-}
-.read_more_container {
-  
-}
-.read_more_container a {
-  
-}
+/* Animation stuff */
 
 
+#zzz {
+  padding: 10px;
+  margin:10px;
+  position: relative;
+    }
 
-.tumblr_quote { 
+#zzz.animate {
+    -webkit-animation-name: zzz;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: zzz;
+    -moz-animation-duration: 3s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-name: zzz;
+    -ms-animation-duration: 3s;
+    -ms-animation-timing-function: ease;
+    -ms-animation-iteration-count: 1;
+    -ms-animation-direction: normal;
+    -ms-animation-delay: 0;
+    -ms-animation-play-state: running;
+    -ms-animation-fill-mode: forwards;
+    animation-name: zzz;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 0;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+} 
 
-}
-.tumblr_quote p {   
+@-webkit-keyframes zzz {
+    
+    0%   { opacity: 0; }
+    100% { opacity: 1; bottom: 20px; left: 20px;}
+  }
+-moz-keyframes zzz {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+   }
+@-o-keyframes zzz {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+   }
+ @keyframes zzz {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+   }
 
-}
-.tumblr_source {
-  
-}
