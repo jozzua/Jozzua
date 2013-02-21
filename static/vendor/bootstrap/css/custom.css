@@ -13,8 +13,9 @@ body {
 .iphone {
   background: url(/i/iphone5.png) no-repeat center top;
   width: 400px;
-  height: 600px;
+  height: 900px;
 } 
+
 
 .inside-iphone {
   position: relative;
@@ -25,4 +26,50 @@ body {
 
 .container .hero-unit {
   background:none;
+}
+
+
+/* Tumbler stuff */
+
+.tumblr_posts { 
+
+}
+li.tumblr_photo_post {
+  list-style: none;    
+}
+
+.tumblr_post img {
+  width: 100px;
+  float: left;
+  padding:5px;
+}
+
+.tumblr_caption {
+  float: left;
+  display:none;
+
+}
+.tumblr_title { 
+
+}
+.tumblr_body img {  
+
+}
+.read_more_container {
+  
+}
+.read_more_container a {
+  
+}
+
+
+
+.tumblr_quote { 
+
+}
+.tumblr_quote p {   
+
+}
+.tumblr_source {
+  
 }
