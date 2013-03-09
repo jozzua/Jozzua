@@ -1,4 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
+  font-family: 'Open Sans', sans-serif;
   background-color: #000;
 }
 
@@ -13,7 +16,7 @@ body {
 .iphone {
   background: url(/i/iphone5.png) no-repeat center top;
   width: 400px;
-  height: 900px;
+  height: 600px;
 }
 
 
@@ -26,25 +29,6 @@ body {
 
 .container .hero-unit {
   background:none;
-}
-
-
-/* Tumbler stuff */
-
-li.tumblr_photo_post {
-  list-style: none;    
-}
-
-.tumblr_post img {
-  width: 80px;
-  float: left;
-  padding:3px;
-}
-
-.tumblr_caption {
-  float: left;
-  display:none;
-
 }
 
 /* Animation stuff */
