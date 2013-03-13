@@ -1,0 +1,99 @@
+<HTML>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Untitled Document</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.youtubeplaylist.js"></script>
+
+    <script type="text/ecmascript">
+
+      $(function() {
+        $("ul.playlist").ytplaylist({addThumbs:true, autoPlay: false, holderId: 'ytvideo'});
+        $("ul.demo2").ytplaylist({addThumbs:true, autoPlay: false, holderId: 'ytvideo2'});
+      });
+
+    </script>
+
+    <style type="text/css">
+
+      body {
+        font-family: Arial, Lucida Grande;
+      }
+
+
+
+      #ytvideo2 {
+        float: left;
+        margin-right:10px;
+      }
+
+
+      .yt_holder {
+        background: #f3f3f3;
+        padding: 10px;
+        float: left;
+        border: 1px solid #e3e3e3;
+        margin-bottom:15px;
+      }
+
+
+      ul {
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 220px;
+      }
+
+      ul li {
+        list-style-type: none;
+        display:block;
+        background: #f1f1f1;
+        float: left;
+        width: 216px;
+        margin-bottom: 5px;
+        padding:2px;
+
+      }
+
+      ul li img {
+        width: 120px;
+        float: left;
+        margin-right: 5px;
+        border: 1px solid #999;
+      }
+
+      ul li a {
+        font-family: arial, lucida grande;
+        text-decoration: none;
+        display: block;
+        color: #000;
+      }
+
+      .currentvideo {
+        background: #e6e6e6;
+      }
+
+
+
+    </style>
+
+  </head>
+  <body>
+
+    <div itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+        <meta itemprop="name" content="AVS Bugflector Installation" />
+        <meta itemprop="description" content="AVS Bugflector Installation" />
+        <meta itemprop="thumbnailUrl" content="http://img.youtube.com/watch?v=hPj0cWBdBro/2.jpg" />
+
+    <div class="yt_holder">
+    	<div id="ytvideo2"><object height="300" width="450"><param name="movie" value="http://www.youtube.com/watch?v=hPj0cWBdBro"> <param name="wmode" value="transparent"> <embed src="http://www.youtube.com/watch?v=hPj0cWBdBro" type="application/x-shockwave-flash" wmode="transparent" height="300" width="450"></object></div>
+        <ul class="demo2">
+            <li class=""><a href="http://www.youtube.com/watch?v=hPj0cWBdBro" title="Video 1"><img src="http://img.youtube.com/watch?v=hPj0cWBdBro/2.jpg" alt="AVS Bugflector II">AVS Bugflector Installation</a></li>
+            <li class=""><a href="http://www.youtube.com/watch?v=s8AJXBDPChs" title="Video 2"><img src="http://www.youtube.com/watch?v=s8AJXBDPChs/2.jpg" alt="EGR OEM Style Fender Flare Install">EGR OEM Style Fender Flare Install</a></li>
+            <li class="currentvideo"><a href="http://www.youtube.com/watch?v=jC7aQS1EcNw" title="Video 3"><img src="http://img.youtube.com/watch?v=jC7aQS1EcNw/2.jpg" alt="Video 3">Magnaflow Exhaust Install</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </body>
+</HTML>
