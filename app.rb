@@ -5,12 +5,6 @@ require 'sinatra/reloader' if development?
 require 'slim'
 
 
-
-configure do
-    set :public_folder, Proc.new { File.join(root, "static") }
-      enable :sessions
-end
-
 helpers do
     def username
           session[:identity] ? session[:identity] : 'Hello stranger'
@@ -26,7 +20,7 @@ before '/secure/*' do
 end
 
 get '/' do
-    slim :home
+    File.read(File.join('public', 'index.html'))
 end
 
 not_found do

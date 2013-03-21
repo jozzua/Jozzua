@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jozzua's Spot</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <!-- <script src="http://s3.amazonaws.com/ender-js/jeesh.min.js"></script> -->
+
+    <script type="text/javascript" src="js/plax.js"></script>
+    <style type="text/css">
+      body {
+        font: normal normal normal 12px/16px "Helvetica Neue",Arial,sans-serif;
+      }
+      h1 {
+        color: white;
+        padding: 5px;
+        margin:5px;
+      }
+
+      p {
+        color: white;
+        padding: 5px;
+        margin:5px;
+      }
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        background: url(img/background.jpg) top left no-repeat;
+        position: relative;
+      }
+      div#shell {
+        display: block;
+        position: relative;
+  
+      }
+
+      div#shell{
+        z-index: 1;
+      }
+      img#plax-logo {
+        position: absolute;
+        top: 125px;
+        left: 90px;
+        z-index: 3;
+      }
+      img#handphone {
+        position: absolute;
+        z-index: 4;
+        top: 50px;
+        left: 600px;
+      }
+      img#head {
+        position: absolute;
+        z-index: 2;
+        top: 49px;
+        left: 1px;
+      }
+      img#body {
+        position: absolute;
+        top: 550px;
+        left: -490px;
+        z-index: 1;
+      }
+
+
+      .iphone {
+        background: url(img/iphone5.png) no-repeat center top;
+        width: 400px;
+        height: 900px;
+        top:50px;
+        left: 681px;
+        position: absolute;
+        z-index: 10;
+
+      }
+
+
+      .inside-iphone {
+        position: relative;
+        left: 30px;
+        top: 125px;
+        width: 340px;
+
+      }
+
+
+    </style>
+ <script type="text/javascript">
+      $(document).ready(function () {
+        $('.iphone').plaxify({"xRange":40,"yRange":40})
+        $('#shell img').plaxify()
+        $.plax.enable()
+      })
+    </script>
+
+
+  </head>
+  <body>
+    <div id="shell" >
+      <div class="iphone">
+        <div class="inside-iphone">
+          <h1>I'm Ely.</h1>
+          <p>Follow me on Twitter:</p>
+          <a class="twitter-timeline" href="https://twitter.com/jozzua" data-widget-id="247901810466095104">Tweets by @jozzua</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+        </div>
+
+      </div>
+      <img src="img/plax_logo.png" width="136" height="70" data-xrange="20" data-yrange="20" id="plax-logo" invert="true" />
+      <img src="img/handphone.png" data-xrange="40" data-yrange="40" id="handphone"/>
+
+    </div>	
+
+  </body>
+</html>

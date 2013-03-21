@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #000;
+}
+
+.jozzua {
+  height: 400px;
+  background: url(/i/zzz.jpg) no-repeat center top;
+  color: white;
+  text-shadow: 1px 1px #000;
+  background-color: #000;
+}
+
+.iphone {
+  background: url(/i/handphone.png) no-repeat center top;
+  height: 600px;
+  width: 600px;
+}
+
+
+.inside-iphone {
+  position: relative;
+  left: 30px;
+  top: 125px;
+  width: 400px;
+}
+
+.container .hero-unit {
+  background:none;
+}
+
+/* Animation stuff */
+
+
+#zzz {
+  padding: 10px;
+  margin:10px;
+  position: relative;
+  opacity: 0;
+  }
+
+#zzz.firstz {
+    -webkit-animation-name: zzz;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: zzz;
+    -moz-animation-duration: 3s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-name: zzz;
+    -ms-animation-duration: 3s;
+    -ms-animation-timing-function: ease;
+    -ms-animation-iteration-count: 1;
+    -ms-animation-direction: normal;
+    -ms-animation-delay: 0;
+    -ms-animation-play-state: running;
+    -ms-animation-fill-mode: forwards;
+    animation-name: zzz;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 0;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+} 
+
+@-webkit-keyframes zzz {
+    
+    0%   { opacity: 0; }
+    100% { opacity: 1; bottom: 20px; left: 20px;}
+  }
+-moz-keyframes zzz {
+    0%   { opacity: 0; }
+    100% { opacity: 1; bottom: 20px; left: 20px;}
+   }
+@-o-keyframes zzz {
+    0%   { opacity: 0; }
+    100% { opacity: 1; bottom: 20px; left: 20px;}
+   }
+ @keyframes zzz {
+    0%   { opacity: 0; }
+    100% { opacity: 1; bottom: 20px; left: 20px;}
+   }
+
+
+#zzz.secondz {
+    -webkit-animation-name: zz2;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-name: zz2;
+    -moz-animation-duration: 3s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 2s;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation-name: zz2;
+    -ms-animation-duration: 3s;
+    -ms-animation-timing-function: ease;
+    -ms-animation-iteration-count: 1;
+    -ms-animation-direction: normal;
+    -ms-animation-delay: 2s;
+    -ms-animation-play-state: running;
+    -ms-animation-fill-mode: forwards;
+    animation-name: zz2;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 2s;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+} 
+
+@-webkit-keyframes zz2 {
+    
+    0%   { opacity: 0; }
+    100% { opacity: 1; bottom: 20px; left: 20px;}
+  }
+-moz-keyframes zz2 {
+    0%   { opacity: 0; }
+    100% { opacity: 1; bottom: 20px; left: 20px;}
+  }
+   }
+@-o-keyframes zz2 {
+    0%   { opacity: 0; }
+    100% { opacity: 1; bottom: 20px; left: 20px;}
+  }
+
+   }
+ @keyframes zz2 {
+    0%   { opacity: 0; }
+
+    100% { opacity: 1; bottom: 20px; left: 20px;}
+   }
+
