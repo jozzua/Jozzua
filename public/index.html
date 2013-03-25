@@ -1,200 +1,215 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Jozzua's Spot</title>
-    <meta name="viewport" content="initial-scale=1, width=device-width">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <!-- <script src="http://s3.amazonaws.com/ender-js/jeesh.min.js"></script> -->
+<!DOCTYPE html> <html> <head>
+<title>Jozzua's Spot</title>
+<meta name="viewport" content="initial-scale=1, width=device-width">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- <script src="http://s3.amazonaws.com/ender-js/jeesh.min.js"></script> -->
 
-    <script type="text/javascript" src="js/plax.js"></script>
-    <style type="text/css">
-      body {
-        font: normal normal normal 12px/16px "Helvetica Neue",Arial,sans-serif;
-      }
-      h1 {
-        color: white;
-        padding: 5px;
-        margin:5px;
-      }
+<script type="text/javascript" src="js/plax.js"></script>
+<style type="text/css">
+body {
+  font: normal normal normal 12px/16px "Helvetica Neue",Arial,sans-serif;
+  background: url(img/background.jpg) top left no-repeat;
+  position: relative;
+}
+h1 {
+  color: white;
+  padding: 5px;
+  margin:5px;
+}
 
-      p {
-        color: white;
-        padding: 5px;
-        margin:5px;
-        font-size: 18px;
-        line-height: 24px;
-      }
+p {
+  color: white;
+  padding: 5px;
+  margin:5px;
+  font-size: 18px;
+  line-height: 24px;
+}
 
-      a {
-        color: white;
-       
-      }
-      * {
-        margin: 0px;
-        padding: 0px;
-      }
-      body {
-        background: url(img/background.jpg) top left no-repeat;
-        position: relative;
-      }
-      div#shell {
-        display: block;
-        position: relative;
+a {
+  color: white;
 
-      }
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+div#shell {
+  display: block;
+  position: relative;
 
-      div#shell{
-        z-index: 1;
-      }
-      .personal {
-        position: absolute;
-        top: 125px;
-        left: 90px;
-        width: 400px;
-        z-index: 3;
-      }
-      img#handphone {
-        position: absolute;
-        z-index: 4;
-        top: 50px;
-        left: 600px;
-      }
-    
-      .iphone {
-        background: url(img/iphone5.png) no-repeat center top;
-        width: 400px;
-        height: 900px;
-        top:50px;
-        left: 681px;
-        position: absolute;
-        z-index: 10;
+}
 
-      }
+div#shell{
+  z-index: 1;
+}
+.personal {
+  position: absolute;
+  top: 125px;
+  left: 90px;
+  width: 400px;
+  z-index: 3;
+}
+img#handphone {
+  position: absolute;
+  z-index: 4;
+  top: 50px;
+  left: 600px;
+}
+
+.iphone {
+  background: url(img/iphone5.png) no-repeat center top;
+  width: 400px;
+  height: 900px;
+  top:50px;
+  left: 681px;
+  position: absolute;
+  z-index: 10;
+
+}
 
 
-      .inside-iphone {
-        position: relative;
-        left: 30px;
-        top: 125px;
-        width: 340px;
+.inside-iphone {
+  position: relative;
+  left: 30px;
+  top: 125px;
+  width: 340px;
 
-      }
+}
 
-      .vcard {
-        display:None;
-      }
-      .phonenum {
-        display:none;
-      }
+.vcard {
+  display:None;
+}
+.phonenum {
+  display:none;
+}
 
-      /* Media QUeries ----------- */
+/* Media QUeries ----------- */
 
-      @media (min-width: 481px) and (max-width: 768px) {
-
-        
-             .iphone { display:block; } 
-             .inside-iphone {display:block;}
-             img#handphone {display:block;}
+@media (min-width: 481px) and (max-width: 768px) {
 
 
-            
-          } 
 
-          @media (min-width: 321px) and (max-width: 480px) {
-            .personal {
-              left: 0;
-              top: 0;
-              padding: 10px;
-              margin: 10px;
-              width:80%;
-            }
-            h1 {
-              font-size: 36px;
-              padding-bottom: 10px;
-              border-bottom: 1px solid white;
-            }
-
-            p {
-              line-height: 36px;
-            }
-
-             .iphone { display:none; } 
-             .inside-iphone {display:none;}
-             img#handphone {display:none;}
-             .phonenum {display:block;}
-          }
-
-          @media (max-width: 320px) {
-              .personal {
-              left: 0;
-              top: 0;
-              padding: 10px;
-              margin: 10px;
-              width:80%;
-            }
-            h1 {
-              font-size: 36px;
-              padding-bottom: 10px;
-              border-bottom: 1px solid white;
-            }
-          p {
-              line-height: 36px;
-            }
+  .iphone { display:block; } 
+  .inside-iphone {display:block;}
+  img#handphone {display:block;}
 
 
-             .iphone { display:none; } 
-             .inside-iphone {display:none;}
-             img#handphone {display:none;}
-             .phonenum {display:block;}
-          }
 
-     
-    </style>
-    <script type="text/javascript">
-      $(document).ready(function () {
-          $('.iphone').plaxify({"xRange":41,"yRange":41});
-          $('#shell img').plaxify();
-          $.plax.enable()
-          })
+} 
+
+@media (min-width: 321px) and (max-width: 480px) {
+ body {
+  background-color: black;
+  background-image: none;
+}
+
+.personal {
+  left: 0;
+  top: 0;
+  padding: 10px;
+  margin: 10px;
+  width:80%;
+}
+h1 {
+  font-size: 36px;
+  padding-bottom: 10px;
+}
+
+p {
+  line-height: 36px;
+  text-decoration: none;
+}
+
+.iphone { display:none; } 
+.inside-iphone {display:none;}
+img#handphone {display:none;}
+.phonenum {display:block;}
+}
+
+@media (max-width: 320px) {
+  body {
+    background-color: black;
+    background-image: none;
+  }
+  .personal {
+    left: 0;
+    top: 0;
+    padding: 10px;
+    margin: 10px;
+    width:80%;
+  }
+  h1 {
+    font-size: 36px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+  }
+  p {
+    line-height: 36px;
+    margin: 0 auto;
+  }
+  
+  a {text-decoration: none;}
+  .iphone { display:none; } 
+  /*.inside-iphone {display:none;}*/
+  img#handphone {display:none;}
+  .phonenum {display:block;}
+
+  .button {
+    padding:10px;
+    margin: 10px;
+    background: blue;
+  }
+}
+
+
+</style>
+<script type="text/javascript">
+$(document).ready(function () {
+  $('.iphone').plaxify({"xRange":50,"yRange":50});
+  $('#shell img').plaxify();
+  $('.personal').plaxify({"xRange":20,"yRange":20});
+  $.plax.enable()
+})
 </script>
 
 
-  </head>
-  <body>
-    <div id="shell" >
-      <div class="iphone">
-        <div class="inside-iphone">
-          <br />
-          <h1>I'm Ely.</h1>
-          <p>Follow me on Twitter:</p>
-          <a class="twitter-timeline" href="https://twitter.com/jozzua" data-widget-id="247901810466095104">Tweets by @jozzua</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-        </div>
+</head>
+<body>
+  <div id="shell" >
+    <div class="iphone">
+      <div class="inside-iphone">
+        <br />
+        <h1>I'm Ely.</h1>
+        <p>Follow me on Twitter:</p>
+        <a class="twitter-timeline" href="https://twitter.com/jozzua" data-widget-id="247901810466095104">Tweets by @jozzua</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
       </div>
 
-      <div class="personal">
-        <h1> Jozzua.com </h1>
-        <p>I'm Ely (AKA Jozzua), a <a href="http://www.linkedin.com/in/jozzua"> product development manager</a> for a NASDAQ-listed US company.</p>
+    </div>
 
-        <p>I made this <a href="http://usabilityphilippines.com"> Usability-related</a> site.</p>
+    <div class="personal">
+      <h1> Jozzua.com </h1>
 
-        <p class="phonenum">Phone:  <a href="tel:+63917-5546354">+63917-5546354</a></p>
-        
-      </div>
+      <p class="button phonenum">Call:  <a href="tel:+63917-5546354">+63917-5546354</a></p>
+      <p>I'm Ely (AKA Jozzua), a <a href="http://www.linkedin.com/in/jozzua"> product development manager</a> for a NASDAQ-listed US company.</p>
 
-
-      <img src="img/handphone.png" data-xrange="40" data-yrange="40" id="handphone"/>
-
-    </div>	
+      <p>I made this <a href="http://usabilityphilippines.com"> Usability-related</a> site.</p>
 
 
-        <div class="vcard">
-        <span class="fn org">Usability Philippines</span> 
-        Phone: <span class="tel">+63917-5546354</span>
-      </div>
+    </div>
 
 
-  </body>
+    <img src="img/handphone.png" data-xrange="40" data-yrange="40" id="handphone"/>
+
+  </div>	
+
+
+  <div class="vcard">
+    <span class="fn org">Usability Philippines</span> 
+    Phone: <span class="tel">+63917-5546354</span>
+  </div>
+
+
+</body>
 </html>
