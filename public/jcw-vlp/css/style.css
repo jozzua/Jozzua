@@ -349,6 +349,9 @@
 				display: block;
 				font-weight: bold;
 				font-size: 12px;
+        position:absolute;
+        bottom: 0;
+        padding-bottom: 10px;
 			}
 
 				
@@ -364,8 +367,8 @@
 				}
 
 				#list-products li div.info .price-container .price{
-					font-size: 30px;
-					margin: 0 0 0 5px;
+					font-size: 21px;
+					margin: 0 5px 0 5px;
 				}
 
 				#list-products li div.info .price-container .special-price{
